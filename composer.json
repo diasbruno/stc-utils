@@ -10,8 +10,8 @@
     }
   ],
   "autoload": {
-    "files": {
+    "files": [
       "src/strings.php"
-    }
+    ]
   }
 }
