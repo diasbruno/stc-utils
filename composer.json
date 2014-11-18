@@ -2,7 +2,8 @@
   "name": "diasbruno/stc-utils",
   "description": "stc utils.",
   "version": "0.1.0",
-  "license": "PublicDomain",
+  "license": "MIT",
+  "type": "library",
   "authors": [
     {
       "name": "Bruno Dias",
