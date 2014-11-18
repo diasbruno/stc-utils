@@ -11,6 +11,7 @@
   ],
   "autoload": {
     "files": [
+      "src/cli.php",
       "src/strings.php"
     ]
   }
