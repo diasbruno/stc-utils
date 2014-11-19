@@ -13,7 +13,6 @@
     "files": [
       "src/cli.php",
       "src/date.php",
-      "src/strings.php",
       "src/templates.php"
     ]
   }
