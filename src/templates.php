@@ -8,10 +8,10 @@
  */
 function view($page, $scope = [])
 {
-	extract($scope);
-	ob_start();
-	include $page;
-	$contents = ob_get_contents();
-	ob_end_clean();
-	return $contents;
+  extract($scope);
+  ob_start();
+  include $page;
+  $contents = ob_get_contents();
+  ob_end_clean();
+  return $contents;
 }
