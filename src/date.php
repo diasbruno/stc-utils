@@ -13,7 +13,7 @@ function date_from_filename($filename = '')
 
 function format_date_YYYYMMDD($filename = '')
 {
-  $dff = date_from_file($filename); 
+  $dff = date_from_filename($filename);
   if ($dff == '') return '';
   return join('', explode('-', $dff));
 }
