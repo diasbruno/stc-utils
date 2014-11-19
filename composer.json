@@ -10,14 +10,12 @@
       "email": "dias.h.bruno@gmail.com"
     }
   ],
-  "require": {
-    "lsolesen/php-template": "dev-master"
-  },
   "autoload": {
     "files": [
       "src/cli.php",
       "src/date.php",
-      "src/strings.php"
+      "src/strings.php",
+      "src/templates.php"
     ]
   }
 }
