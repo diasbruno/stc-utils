@@ -14,7 +14,7 @@ function date_from_filename($filename = '')
     return explode('-', $match[1]);
   }
 
-  return '';
+  return [];
 }
 
 /**
@@ -26,6 +26,6 @@ function date_from_filename($filename = '')
 function format_date_YYYYMMDD($filename = '')
 {
   $dff = date_from_filename($filename);
-  if ($dff == '') return '';
+  if (count($dff) == 0) return '';
   return join('', explode('-', $dff));
 }
