@@ -27,5 +27,5 @@ function format_date_YYYYMMDD($filename = '')
 {
   $dff = date_from_filename($filename);
   if (count($dff) == 0) return '';
-  return join('', explode('-', $dff));
+  return join('', $dff);
 }
