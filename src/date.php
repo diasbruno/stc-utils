@@ -14,7 +14,7 @@ function date_from_filename($filename = '')
     return explode('-', $match[1]);
   }
 
-  return [];
+  return array();
 }
 
 /**
