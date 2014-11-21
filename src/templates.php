@@ -6,7 +6,7 @@
  * @param $scope array | The hash with the components to be injected.
  * @return string
  */
-function view($page, $scope = [])
+function view($page, $scope = array())
 {
   extract($scope);
   ob_start();
