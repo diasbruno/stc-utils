@@ -10,6 +10,9 @@
     }
   ],
   "autoload": {
+    "psr-4": {
+      "STC\\": "lib/stc"
+    },
     "files": [
       "src/cli.php",
       "src/date.php",
